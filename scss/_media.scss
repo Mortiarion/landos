@@ -1,0 +1,231 @@
+@media (max-width: 1642px) {
+  .product__item {
+    flex-basis: calc(33.33333% - 30px);
+    max-width: 100%;
+  }
+}
+@media (max-width: 1240px) {
+  .product__item {
+    max-width: 100%;
+    flex-basis: calc(50% - 30px);
+  }
+}
+@media (max-width: 1150px) {
+  .footer__inner {
+    flex-wrap: wrap;
+  }
+  .footer__col-adress {
+    margin-bottom: 30px;
+    max-width: 100%;
+  }
+  .product__item-img {
+    min-height: 225px;
+  }
+  .product__item {
+    flex-basis: calc(50% - 30px);
+    max-width: 100%;
+  }
+  .products__inner-btn button {
+    width: 100%;
+    & + button {
+      margin-left: 0;
+    }
+  }
+}
+@media (max-width: 1001px) {
+  .menu__list {
+    display: none;
+    background-color: #263238;
+    position: absolute;
+    top: 240px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    padding-bottom: 30px;
+    text-align: center;
+    a {
+      display: block;
+      padding: 10px 0px;
+      border-bottom: 1px solid #fff;
+    }
+    li {
+      display: block;
+      & + li {
+        margin-left: 0;
+      }
+      &:first-child {
+        border-top: 1px solid #fff;
+      }
+    }
+  }
+  .menu__btn {
+    display: block;
+    width: 30px;
+    div {
+      background-color: #fff;
+      height: 3px;
+      cursor: pointer;
+      & + div {
+        margin-top: 5px;
+      }
+    }
+  }
+  .header__menu {
+    display: block;
+  }
+  #menu-wrapper {
+    display: none;
+  }
+  .header__phones,
+  .header__support,
+  .header__language {
+    display: none;
+  }
+  .header__bottom-line .search__form {
+    margin-left: 25px;
+  }
+}
+@media (max-width: 900px) {
+  .footer__col-social {
+    min-width: 100%;
+    margin-top: 30px;
+  }
+  .footer__inner {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 840px) {
+  .product__item {
+    flex-basis: calc(100%);
+    max-width: 100%;
+  }
+  .content__box,
+  .content__inner-user,
+  .content__inner-now {
+    font-size: 16px;
+  }
+  .content__inner-price {
+    font-size: 30px;
+    span {
+      font-size: 30px;
+    }
+  }
+  .content__box:after,
+  .icon-shopping-cart:before,
+  .content__inner-coments:before {
+    font-size: 20px;
+  }
+  .content__box:after {
+    top: 3%;
+    right: 8%;
+  }
+  .icon-shopping-cart:before {
+    left: 82%;
+  }
+  .content__inner-coments:before {
+    right: 8%;
+  }
+}
+@media (max-width: 800px) {
+  .slider__inner-image {
+    min-height: 350px;
+  }
+}
+@media (max-width: 700px) {
+  .slider__inner-image {
+    min-height: 300px;
+  }
+}
+@media (max-width: 600px) {
+  .slider__inner-image {
+    min-height: 250px;
+  }
+  .slick-dots li button{
+    width: 6px;
+    height: 6px;
+  }
+}
+@media (max-width: 540px) {
+  .footer__col {
+    min-width: 100%;
+  }
+  .footer__col {
+    & + & {
+      margin-left: 0px;
+      margin-top: 30px;
+    }
+  }
+  .slider__inner-image {
+    min-height: 200px;
+  }
+}
+@media (max-width: 521px) {
+  .header__log-acc {
+    font-size: 15px;
+  }
+  .header__bottom-line .search__form input {
+    width: 206px;
+  }
+  .header__bottom-line .search__form {
+    width: 350px;
+  }
+  .header__bottom-line .search__form button {
+    right: 7%;
+  }
+  .products__bottom-btn {
+    display: flex;
+    font-size: 12px;
+    justify-content: center;
+  }
+}
+@media (max-width: 461px) {
+  .header__topline__items .header__log-acc {
+    font-size: 10px;
+    margin-top: 14px;
+  }
+  .search__form-microphone {
+    display: none;
+  }
+  .header__bottom-line .search__form button {
+    right: 20%;
+  }
+  .header__bottom-line .search__form {
+    margin-left: 60px;
+  }
+}
+@media (max-width: 401px) {
+  .header__topline__items .header__log-acc {
+    margin-top: 3px;
+    display: grid;
+    text-align: center;
+  }
+  .login__title {
+    font-size: 30px;
+  }
+  .coments {
+    span {
+      display: none;
+    }
+  }
+  .slider__inner-image {
+    min-height: 150px;
+  }
+}
+@media (max-width: 371px) {
+  .header__bottom-line .search__form button:before {
+    display: none;
+  }
+  .header__bottom-line .search__form {
+    margin: 0;
+    width: 200px;
+  }
+  .header__bottom-line .search__form input {
+    width: 180px;
+    font-size: 12px;
+  }
+  .header__bottom-line .search__form button {
+    right: 0%;
+    padding: 15px 12px;
+  }
+}
